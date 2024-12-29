@@ -61,7 +61,7 @@ Anugraha Handicraft is a Nepali brand dedicated to creating high-quality, handma
       </div>
       <div>
         <hr />
-        <p className='py-5 text-sm text-center'> Copyright 2024 © Silon Maharjan - All Rights Reserved.</p>
+        <p className='py-5 text-sm text-center'> Copyright 2024 © Anugraha Handicraft - All Rights Reserved.</p>
       </div>
 
     </div>
