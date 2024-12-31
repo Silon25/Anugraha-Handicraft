@@ -117,7 +117,7 @@ const Product = () => {
 
             <p> 100% Handmade Product</p>
             <p> Cash on delivery is available for this product</p>
-            <p>Easy return and exchange policy within 7 days</p>
+            {/* <p>Easy return and exchange policy within 7 days</p> */}
 
           </div>
 
@@ -135,8 +135,8 @@ const Product = () => {
 
             </div>
             <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
-              <p>Nepali Dhaka clothing is a traditional handwoven textile unique to Nepal, known for its vibrant patterns and geometric designs. Dhaka fabric is often used to make garments like the **"topi"** (a traditional cap) and **"gunyo cholo"** (women’s attire). Worn during festivals, celebrations, and cultural events, Dhaka represents Nepal's rich heritage and craftsmanship, with each piece symbolizing the nation's cultural identity. The fabric is still woven by hand in many parts of Nepal, preserving its authenticity and historical significance. </p>
-              <p > Handmade Dhaka clothing is a traditional Nepali textile renowned for its intricate, handwoven patterns and vibrant colors. Created on a loom by skilled artisans, Dhaka fabric is used to make a variety of clothing items, such as the **Nepali topi** (hat), **gunyo cholo** (women's traditional dress), shawls, and scarves. Each piece of Dhaka cloth is crafted with attention to detail, often taking days or weeks to complete, symbolizing craftsmanship and cultural pride. Dhaka clothing is worn during special occasions, festivals, and ceremonies, representing Nepal’s rich heritage and artisanal tradition.</p>
+              <p>Nepali Dhaka clothing is a traditional handwoven textile unique to Nepal, known for its vibrant patterns and geometric designs. Dhaka fabric is often used to make garments like the **"topi"** (a traditional cap) and "gunyo cholo" (women’s attire). Worn during festivals, celebrations, and cultural events, Dhaka represents Nepal's rich heritage and craftsmanship, with each piece symbolizing the nation's cultural identity. The fabric is still woven by hand in many parts of Nepal, preserving its authenticity and historical significance. </p>
+              <p > Handmade Dhaka clothing is a traditional Nepali textile renowned for its intricate, handwoven patterns and vibrant colors. Created on a loom by skilled artisans, Dhaka fabric is used to make a variety of clothing items, such as the Nepali topi (hat), gunyo cholo (women's traditional dress), shawls, and scarves. Each piece of Dhaka cloth is crafted with attention to detail, often taking days or weeks to complete, symbolizing craftsmanship and cultural pride. Dhaka clothing is worn during special occasions, festivals, and ceremonies, representing Nepal’s rich heritage and artisanal tradition.</p>
 
               
 

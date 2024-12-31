@@ -81,6 +81,9 @@ import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import "slick-carousel/slick/slick.css"; // Core slick styles
+import "slick-carousel/slick/slick-theme.css"; // Theme styles
+
 
 
 // -------------- Speech recog ------------
