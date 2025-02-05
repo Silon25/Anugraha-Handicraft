@@ -37,7 +37,7 @@ const LoadingScreen = () => {
       <div className="text-center">
         <div className="spinner border-t-4 border-blue-500 rounded-full w-16 h-16 mb-4 animate-spin"></div>
         <p className="text-gray-700 text-xl font-semibold">
-          Products are loading
+          Welcome to Anugraha Handicraft
           {'.'.repeat(dotCount)}
         </p>
       </div>

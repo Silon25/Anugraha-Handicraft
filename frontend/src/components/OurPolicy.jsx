@@ -84,8 +84,8 @@ const OurPolicy = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <p className='font-semibold'>Video Title 1</p>
-        <p className='text-gray-400'>Brief description of the video</p>
+        {/* <p className='font-semibold'>Video Title 1</p>
+        <p className='text-gray-400'>Brief description of the video</p> */}
       </div>
       <div>
         <iframe
@@ -95,8 +95,8 @@ const OurPolicy = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <p className='font-semibold'>Video Title 2</p>
-        <p className='text-gray-400'>Brief description of the video</p>
+        {/* <p className='font-semibold'>Video Title 2</p>
+        <p className='text-gray-400'>Brief description of the video</p> */}
       </div>
       <div>
         <iframe
@@ -106,8 +106,8 @@ const OurPolicy = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <p className='font-semibold'>Video Title 3</p>
-        <p className='text-gray-400'>Brief description of the video</p>
+        {/* <p className='font-semibold'>Video Title 3</p>
+        <p className='text-gray-400'>Brief description of the video</p> */}
       </div>
     </div>
   );
