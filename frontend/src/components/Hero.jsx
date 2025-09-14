@@ -91,12 +91,13 @@ const Hero = () => {
                       <ProductItem
                         id={product._id}
                         image={product.image}
+                        hidePrice={true}  // hide Nrs and price
                       />
                     </div>
                   ))}
                 </Slider>
               ) : (
-                <p className="text-gray-500">No products available</p>
+                <p className="text-gray-500">Loading Products</p>
               )}
 
               <Link to={`/collection?category=${category.name}`}>
