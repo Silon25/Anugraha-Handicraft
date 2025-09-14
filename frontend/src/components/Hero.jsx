@@ -91,7 +91,7 @@ const Hero = () => {
                       <ProductItem
                         id={product._id}
                         image={product.image}
-                        hidePrice={true}  // hide Nrs and price
+                        // hidePrice={true}  // hide Nrs and price
                       />
                     </div>
                   ))}
