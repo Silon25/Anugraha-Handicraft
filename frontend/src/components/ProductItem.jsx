@@ -18,7 +18,7 @@ const {currency} = useContext(ShopContext);
         {/* Show price only if hidePrice is false */}
 
 
-        {!hidePrice && price && <p className='text-sm font-medium'>{currency}{price}</p>}
+        {!hidePrice && price && ( <p className='text-sm font-medium'>{currency}{price}</p>)}
 
     </Link>
   )
