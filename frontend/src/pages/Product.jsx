@@ -85,7 +85,7 @@ const Product = () => {
             <p className='pl-2'>(122)</p>
           </div>
           <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
-          <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
+          <p className='mt-5 text-gray-500 md:w-4/5 whitespace-pre-line'>{productData.description}</p>
           <div className='flex flex-col gap-4 my-8'>
             <p>Select Size</p>
             <div className='flex gap-2'>
@@ -128,7 +128,7 @@ const Product = () => {
               </div>
               {/* Description and review section */}
 
-          <div className='mt-20'>
+          {/* <div className='mt-20'>
             <div className='flex'>
               <b className='border px-5 py-3 text-sm'> Description</b>
               <p className='border px-5 py-3 text-sm'> Reviews (122)</p>
@@ -142,7 +142,7 @@ const Product = () => {
 
             </div>
 
-          </div>
+          </div> */}
 
           {/* Display related products */}
           <RelatedProducts category={productData.category} subCategory={productData.subCategory}/>
